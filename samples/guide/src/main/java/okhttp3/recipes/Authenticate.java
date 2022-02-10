@@ -16,12 +16,12 @@
 package okhttp3.recipes;
 
 import java.io.IOException;
-import okhttp3.Authenticator;
-import okhttp3.Credentials;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.Route;
+import org.cocos2dx.okhttp3.Authenticator;
+import org.cocos2dx.okhttp3.Credentials;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.Route;
 
 public final class Authenticate {
   private final OkHttpClient client;

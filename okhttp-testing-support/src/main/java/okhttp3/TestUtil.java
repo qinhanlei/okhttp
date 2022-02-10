@@ -21,7 +21,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import okhttp3.internal.http2.Header;
+
+import org.cocos2dx.okhttp3.ConnectionPool;
+import org.cocos2dx.okhttp3.Dispatcher;
+import org.cocos2dx.okhttp3.Dns;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.internal.http2.Header;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

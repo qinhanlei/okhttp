@@ -17,9 +17,9 @@ package okhttp3.internal.sse;
 
 import java.io.IOException;
 import javax.annotation.Nullable;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ByteString;
 
 public final class ServerSentEventReader {
   private static final ByteString CRLF = ByteString.encodeUtf8("\r\n");

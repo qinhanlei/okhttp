@@ -21,9 +21,9 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import okhttp3.mockwebserver.RecordedRequest;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.Utf8;
+import org.cocos2dx.okio.BufferedSink;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.Utf8;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

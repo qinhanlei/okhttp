@@ -16,7 +16,7 @@
 package okhttp3;
 
 import java.io.IOException;
-import okio.Buffer;
+import org.cocos2dx.okio.Buffer;
 import org.junit.Test;
 import java.nio.charset.Charset;
 

@@ -16,7 +16,9 @@
 package okhttp3;
 
 import javax.annotation.Nullable;
-import okio.BufferedSource;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.ResponseBody;
 
 public class ForwardingResponseBody extends ResponseBody {
   private final ResponseBody delegate;
@@ -30,7 +32,8 @@ public class ForwardingResponseBody extends ResponseBody {
     return delegate;
   }
 
-  @Override public @Nullable MediaType contentType() {
+  @Override public @Nullable
+  MediaType contentType() {
     return delegate.contentType();
   }
 

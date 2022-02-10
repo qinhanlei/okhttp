@@ -22,12 +22,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import okhttp3.internal.annotations.EverythingIsNonNull;
-import okhttp3.internal.platform.Platform;
 
-import static okhttp3.internal.Util.delimiterOffset;
-import static okhttp3.internal.Util.trimSubstring;
-import static okhttp3.internal.platform.Platform.WARN;
+import org.cocos2dx.okhttp3.Cookie;
+import org.cocos2dx.okhttp3.CookieJar;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.internal.annotations.EverythingIsNonNull;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
+
+import static org.cocos2dx.okhttp3.internal.Util.delimiterOffset;
+import static org.cocos2dx.okhttp3.internal.Util.trimSubstring;
+import static org.cocos2dx.okhttp3.internal.platform.Platform.WARN;
 
 /** A cookie jar that delegates to a {@link java.net.CookieHandler}. */
 @EverythingIsNonNull

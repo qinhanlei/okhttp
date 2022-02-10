@@ -34,10 +34,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import okhttp3.internal.NamedRunnable;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.Okio;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSink;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.Okio;
 
 /**
  * A limited implementation of SOCKS Protocol Version 5, intended to be similar to MockWebServer.

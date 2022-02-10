@@ -15,6 +15,10 @@
  */
 package okhttp3;
 
+import org.cocos2dx.okhttp3.Cookie;
+import org.cocos2dx.okhttp3.CookieJar;
+import org.cocos2dx.okhttp3.HttpUrl;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;

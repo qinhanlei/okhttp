@@ -16,10 +16,13 @@
 package okhttp3;
 
 import java.io.IOException;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ForwardingSource;
-import okio.Okio;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ForwardingSource;
+import org.cocos2dx.okio.Okio;
+import org.cocos2dx.okhttp3.Interceptor;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
 
 /** Rewrites the response body returned from the server to be all uppercase. */
 public final class UppercaseResponseInterceptor implements Interceptor {

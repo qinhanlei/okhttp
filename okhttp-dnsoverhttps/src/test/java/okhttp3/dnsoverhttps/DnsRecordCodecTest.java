@@ -18,7 +18,7 @@ package okhttp3.dnsoverhttps;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
-import okio.ByteString;
+import org.cocos2dx.okio.ByteString;
 import org.junit.Test;
 
 import static okhttp3.dnsoverhttps.DnsRecordCodec.TYPE_A;

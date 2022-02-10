@@ -29,9 +29,9 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509KeyManager;
 import javax.net.ssl.X509TrustManager;
-import okhttp3.CertificatePinner;
-import okhttp3.internal.Util;
-import okhttp3.internal.platform.Platform;
+import org.cocos2dx.okhttp3.CertificatePinner;
+import org.cocos2dx.okhttp3.internal.Util;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
 
 import static okhttp3.tls.internal.TlsUtil.newKeyManager;
 import static okhttp3.tls.internal.TlsUtil.newTrustManager;

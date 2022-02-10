@@ -21,15 +21,15 @@ import com.squareup.moshi.Types;
 import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import okhttp3.Interceptor;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okio.BufferedSink;
-import okio.GzipSink;
-import okio.Okio;
+import org.cocos2dx.okhttp3.Interceptor;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okio.BufferedSink;
+import org.cocos2dx.okio.GzipSink;
+import org.cocos2dx.okio.Okio;
 
 public final class RequestBodyCompression {
   /**

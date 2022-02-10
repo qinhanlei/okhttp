@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.security.Security;
 import java.util.Arrays;
 import java.util.List;
-import okhttp3.internal.platform.Platform;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
 import org.conscrypt.Conscrypt;
 
 public class TestTls13Request {

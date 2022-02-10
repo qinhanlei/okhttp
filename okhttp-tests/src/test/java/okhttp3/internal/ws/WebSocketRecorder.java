@@ -26,7 +26,7 @@ import okhttp3.Response;
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 import okhttp3.internal.platform.Platform;
-import okio.ByteString;
+import org.cocos2dx.okio.ByteString;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

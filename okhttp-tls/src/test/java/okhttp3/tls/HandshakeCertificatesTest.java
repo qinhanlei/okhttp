@@ -31,13 +31,13 @@ import java.util.concurrent.Future;
 import javax.net.ServerSocketFactory;
 import javax.net.SocketFactory;
 import javax.net.ssl.SSLSocket;
-import okhttp3.Handshake;
-import okio.ByteString;
+import org.cocos2dx.okhttp3.Handshake;
+import org.cocos2dx.okio.ByteString;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static okhttp3.internal.Util.closeQuietly;
+import static org.cocos2dx.okhttp3.internal.Util.closeQuietly;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public final class HandshakeCertificatesTest {

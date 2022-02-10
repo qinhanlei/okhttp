@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import javax.annotation.Nullable;
-import okio.Buffer;
+import org.cocos2dx.okio.Buffer;
 import org.junit.After;
 import org.junit.Test;
 

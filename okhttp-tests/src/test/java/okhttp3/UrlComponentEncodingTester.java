@@ -21,8 +21,8 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.ByteString;
 
 import static org.junit.Assert.fail;
 

@@ -20,14 +20,14 @@ import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.util.List;
-import okhttp3.Call;
-import okhttp3.Connection;
-import okhttp3.EventListener;
-import okhttp3.Handshake;
-import okhttp3.OkHttpClient;
-import okhttp3.Protocol;
-import okhttp3.Request;
-import okhttp3.Response;
+import org.cocos2dx.okhttp3.Call;
+import org.cocos2dx.okhttp3.Connection;
+import org.cocos2dx.okhttp3.EventListener;
+import org.cocos2dx.okhttp3.Handshake;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Protocol;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
 
 /**
  * This prints events for a single in-flight call. It won't work for multiple concurrent calls

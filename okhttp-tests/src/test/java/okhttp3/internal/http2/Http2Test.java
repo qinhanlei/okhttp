@@ -20,12 +20,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSink;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.GzipSink;
-import okio.Okio;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSink;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ByteString;
+import org.cocos2dx.okio.GzipSink;
+import org.cocos2dx.okio.Okio;
 import org.junit.Test;
 
 import static okhttp3.TestUtil.headerEntries;

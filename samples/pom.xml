@@ -23,6 +23,18 @@
     <module>unixdomainsockets</module>
   </modules>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.squareup.okio</groupId>
+        <artifactId>okio</artifactId>
+        <version>${okio.version}</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/../../libs/okio-1.17.3.jar</systemPath>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <build>
     <plugins>
       <plugin>

@@ -1,3 +1,5 @@
 /** A DNS over HTTPS implementation for OkHttp. */
-@okhttp3.internal.annotations.EverythingIsNonNull
+@EverythingIsNonNull
 package okhttp3.dnsoverhttps;
+
+import org.cocos2dx.okhttp3.internal.annotations.EverythingIsNonNull;

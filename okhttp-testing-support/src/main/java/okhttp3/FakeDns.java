@@ -15,6 +15,8 @@
  */
 package okhttp3;
 
+import org.cocos2dx.okhttp3.Dns;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.ArrayList;

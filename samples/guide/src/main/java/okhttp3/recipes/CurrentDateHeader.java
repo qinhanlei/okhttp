@@ -17,11 +17,11 @@ package okhttp3.recipes;
 
 import java.io.IOException;
 import java.util.Date;
-import okhttp3.Headers;
-import okhttp3.Interceptor;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.Interceptor;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
 
 public final class CurrentDateHeader {
   private final OkHttpClient client = new OkHttpClient.Builder()

@@ -17,8 +17,8 @@ package okhttp3.internal.http2;
 
 import java.io.IOException;
 import java.util.List;
-import okio.BufferedSource;
-import okio.ByteString;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ByteString;
 
 import static org.junit.Assert.fail;
 

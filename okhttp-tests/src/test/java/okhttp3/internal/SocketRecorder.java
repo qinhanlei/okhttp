@@ -27,8 +27,8 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import okhttp3.DelegatingSSLSocket;
 import okhttp3.DelegatingSSLSocketFactory;
-import okio.Buffer;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.ByteString;
 
 /** Records all bytes written and read from a socket and makes them available for inspection. */
 public final class SocketRecorder {

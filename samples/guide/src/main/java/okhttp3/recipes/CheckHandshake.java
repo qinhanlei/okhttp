@@ -19,11 +19,11 @@ import java.io.IOException;
 import java.security.cert.Certificate;
 import java.util.Collections;
 import java.util.Set;
-import okhttp3.CertificatePinner;
-import okhttp3.Interceptor;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import org.cocos2dx.okhttp3.CertificatePinner;
+import org.cocos2dx.okhttp3.Interceptor;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
 
 public final class CheckHandshake {
   /** Rejects otherwise-trusted certificates. */

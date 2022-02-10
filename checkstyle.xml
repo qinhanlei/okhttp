@@ -5,7 +5,7 @@
 
 <module name="Checker">
   <module name="SuppressWarningsFilter"/>
-  <module name="NewlineAtEndOfFile"/>
+  <!-- <module name="NewlineAtEndOfFile"/> -->
   <module name="FileLength"/>
   <module name="FileTabCharacter"/>
 
@@ -53,7 +53,7 @@
 
     <!-- Checks for imports                              -->
     <!-- See http://checkstyle.sf.net/config_import.html -->
-    <module name="AvoidStarImport"/>
+    <!-- <module name="AvoidStarImport"/> -->
     <module name="IllegalImport"/>
     <!-- defaults to sun.* packages -->
     <module name="RedundantImport"/>
@@ -65,7 +65,7 @@
     <!-- Checks for Size Violations.                    -->
     <!-- See http://checkstyle.sf.net/config_sizes.html -->
     <module name="LineLength">
-      <property name="max" value="100"/>
+      <property name="max" value="200"/>
     </module>
     <module name="MethodLength">
       <property name="max" value="200"/>

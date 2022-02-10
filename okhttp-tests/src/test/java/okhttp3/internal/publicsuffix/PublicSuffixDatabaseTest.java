@@ -18,10 +18,10 @@ package okhttp3.internal.publicsuffix;
 import java.io.IOException;
 import java.io.InputStream;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.GzipSource;
-import okio.Okio;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.GzipSource;
+import org.cocos2dx.okio.Okio;
 import org.junit.Test;
 
 import static okhttp3.internal.publicsuffix.PublicSuffixDatabase.PUBLIC_SUFFIX_RESOURCE;

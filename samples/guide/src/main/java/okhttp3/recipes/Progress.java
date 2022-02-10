@@ -16,16 +16,16 @@
 package okhttp3.recipes;
 
 import java.io.IOException;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ForwardingSource;
-import okio.Okio;
-import okio.Source;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ForwardingSource;
+import org.cocos2dx.okio.Okio;
+import org.cocos2dx.okio.Source;
 
 public final class Progress {
 

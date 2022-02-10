@@ -15,7 +15,7 @@
  */
 package okhttp3.mockwebserver;
 
-import okhttp3.Headers;
+import org.cocos2dx.okhttp3.Headers;
 
 /** An HTTP request initiated by the server. */
 public final class PushPromise {

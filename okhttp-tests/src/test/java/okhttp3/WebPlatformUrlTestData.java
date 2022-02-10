@@ -20,8 +20,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSource;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
 
 /**
  * A test from the <a href="https://github.com/w3c/web-platform-tests/tree/master/url">Web Platform

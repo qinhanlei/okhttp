@@ -20,14 +20,14 @@ import com.squareup.moshi.JsonAdapter;
 import com.squareup.moshi.Moshi;
 import com.squareup.moshi.ToJson;
 import java.io.IOException;
-import okhttp3.Call;
-import okhttp3.HttpUrl;
-import okhttp3.WebSocket;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.WebSocketListener;
-import okio.ByteString;
+import org.cocos2dx.okhttp3.Call;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.WebSocket;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.WebSocketListener;
+import org.cocos2dx.okio.ByteString;
 
 /**
  * API access to the <a href="https://api.slack.com/apps">Slack API</a> as an application. One

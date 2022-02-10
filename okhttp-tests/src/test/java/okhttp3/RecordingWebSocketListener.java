@@ -16,7 +16,7 @@
 package okhttp3;
 
 import javax.annotation.Nullable;
-import okio.ByteString;
+import org.cocos2dx.okio.ByteString;
 
 public final class RecordingWebSocketListener extends WebSocketListener {
   @Override public void onOpen(WebSocket webSocket, Response response) {

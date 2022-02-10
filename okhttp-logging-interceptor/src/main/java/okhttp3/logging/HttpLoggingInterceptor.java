@@ -22,22 +22,22 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.concurrent.TimeUnit;
-import okhttp3.Connection;
-import okhttp3.Headers;
-import okhttp3.Interceptor;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import okhttp3.internal.http.HttpHeaders;
-import okhttp3.internal.platform.Platform;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.GzipSource;
+import org.cocos2dx.okhttp3.Connection;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.Interceptor;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
+import org.cocos2dx.okhttp3.internal.http.HttpHeaders;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.GzipSource;
 
-import static okhttp3.internal.platform.Platform.INFO;
+import static org.cocos2dx.okhttp3.internal.platform.Platform.INFO;
 
 /**
  * An OkHttp interceptor which logs request and response information. Can be applied as an

@@ -16,7 +16,7 @@
 package okhttp3.sse;
 
 import javax.annotation.Nullable;
-import okhttp3.Response;
+import org.cocos2dx.okhttp3.Response;
 
 public abstract class EventSourceListener {
   /**

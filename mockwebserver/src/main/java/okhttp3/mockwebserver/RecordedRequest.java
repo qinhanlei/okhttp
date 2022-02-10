@@ -22,11 +22,11 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.util.List;
 import javax.net.ssl.SSLSocket;
-import okhttp3.Handshake;
-import okhttp3.Headers;
-import okhttp3.HttpUrl;
-import okhttp3.TlsVersion;
-import okio.Buffer;
+import org.cocos2dx.okhttp3.Handshake;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.TlsVersion;
+import org.cocos2dx.okio.Buffer;
 
 /** An HTTP request that came into the mock web server. */
 public final class RecordedRequest {

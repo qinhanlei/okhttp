@@ -18,12 +18,13 @@ package okhttp3.mockwebserver;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import okhttp3.Headers;
-import okhttp3.WebSocketListener;
-import okhttp3.internal.Internal;
-import okhttp3.internal.http2.Settings;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.WebSocketListener;
+import org.cocos2dx.okhttp3.Protocol;
+import org.cocos2dx.okhttp3.internal.Internal;
+import org.cocos2dx.okhttp3.internal.http2.Settings;
 import okhttp3.mockwebserver.internal.duplex.DuplexResponseBody;
-import okio.Buffer;
+import org.cocos2dx.okio.Buffer;
 
 /** A scripted response to be replayed by the mock web server. */
 public final class MockResponse implements Cloneable {
@@ -294,7 +295,7 @@ public final class MockResponse implements Cloneable {
 
   /**
    * When {@link MockWebServer#setProtocols(java.util.List) protocols} include {@linkplain
-   * okhttp3.Protocol#HTTP_2}, this attaches a pushed stream to this response.
+   * Protocol#HTTP_2}, this attaches a pushed stream to this response.
    */
   public MockResponse withPush(PushPromise promise) {
     this.promises.add(promise);
@@ -308,7 +309,7 @@ public final class MockResponse implements Cloneable {
 
   /**
    * When {@linkplain MockWebServer#setProtocols(java.util.List) protocols} include {@linkplain
-   * okhttp3.Protocol#HTTP_2 HTTP/2}, this pushes {@code settings} before writing the response.
+   * Protocol#HTTP_2 HTTP/2}, this pushes {@code settings} before writing the response.
    */
   public MockResponse withSettings(Settings settings) {
     this.settings = settings;

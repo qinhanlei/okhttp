@@ -19,8 +19,8 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
-import okhttp3.HttpUrl;
-import okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.OkHttpClient;
 
 /**
  * Temporary registry of known DNS over HTTPS providers.

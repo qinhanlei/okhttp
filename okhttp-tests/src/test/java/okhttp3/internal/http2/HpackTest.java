@@ -18,8 +18,8 @@ package okhttp3.internal.http2;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-import okio.Buffer;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.ByteString;
 import org.junit.Before;
 import org.junit.Test;
 

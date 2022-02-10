@@ -23,22 +23,22 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import javax.annotation.Nullable;
-import okhttp3.CacheControl;
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.Dns;
-import okhttp3.HttpUrl;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Protocol;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import okhttp3.internal.Util;
-import okhttp3.internal.platform.Platform;
-import okhttp3.internal.publicsuffix.PublicSuffixDatabase;
-import okio.ByteString;
+import org.cocos2dx.okhttp3.CacheControl;
+import org.cocos2dx.okhttp3.Call;
+import org.cocos2dx.okhttp3.Callback;
+import org.cocos2dx.okhttp3.Dns;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Protocol;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
+import org.cocos2dx.okhttp3.internal.Util;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
+import org.cocos2dx.okhttp3.internal.publicsuffix.PublicSuffixDatabase;
+import org.cocos2dx.okio.ByteString;
 
 /**
  * DNS over HTTPS implementation.

@@ -15,7 +15,7 @@
  */
 package okhttp3.sse;
 
-import okhttp3.Request;
+import org.cocos2dx.okhttp3.Request;
 
 public interface EventSource {
   /** Returns the original request that initiated this event source. */

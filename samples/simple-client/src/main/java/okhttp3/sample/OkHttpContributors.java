@@ -5,10 +5,10 @@ import com.squareup.moshi.Moshi;
 import com.squareup.moshi.Types;
 import java.util.Collections;
 import java.util.List;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
 
 public class OkHttpContributors {
   private static final String ENDPOINT = "https://api.github.com/repos/square/okhttp/contributors";

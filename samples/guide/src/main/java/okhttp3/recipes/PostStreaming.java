@@ -16,12 +16,12 @@
 package okhttp3.recipes;
 
 import java.io.IOException;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
-import okio.BufferedSink;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okio.BufferedSink;
 
 public final class PostStreaming {
   public static final MediaType MEDIA_TYPE_MARKDOWN

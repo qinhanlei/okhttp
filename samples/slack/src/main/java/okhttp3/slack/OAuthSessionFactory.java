@@ -20,12 +20,12 @@ import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.HttpUrl;
 import okhttp3.mockwebserver.Dispatcher;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import okhttp3.mockwebserver.RecordedRequest;
-import okio.ByteString;
+import org.cocos2dx.okio.ByteString;
 
 /**
  * Runs a MockWebServer on localhost and uses it as the backend to receive an OAuth session.

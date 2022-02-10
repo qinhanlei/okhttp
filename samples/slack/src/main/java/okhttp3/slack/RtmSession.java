@@ -17,9 +17,9 @@ package okhttp3.slack;
 
 import java.io.Closeable;
 import java.io.IOException;
-import okhttp3.WebSocket;
-import okhttp3.Response;
-import okhttp3.WebSocketListener;
+import org.cocos2dx.okhttp3.WebSocket;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.WebSocketListener;
 
 /** A realtime messaging session. */
 public final class RtmSession extends WebSocketListener implements Closeable {

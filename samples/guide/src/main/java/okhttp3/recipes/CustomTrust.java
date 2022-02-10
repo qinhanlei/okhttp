@@ -29,12 +29,12 @@ import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
-import okhttp3.CertificatePinner;
-import okhttp3.Headers;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okio.Buffer;
+import org.cocos2dx.okhttp3.CertificatePinner;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okio.Buffer;
 
 public final class CustomTrust {
   private final OkHttpClient client;

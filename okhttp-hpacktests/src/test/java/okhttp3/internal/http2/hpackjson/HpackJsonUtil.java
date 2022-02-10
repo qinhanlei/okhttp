@@ -24,7 +24,7 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import okio.Okio;
+import org.cocos2dx.okio.Okio;
 
 /**
  * Utilities for reading HPACK tests.

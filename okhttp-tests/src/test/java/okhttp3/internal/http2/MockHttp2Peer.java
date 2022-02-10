@@ -32,10 +32,10 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Logger;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.ByteString;
-import okio.Okio;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.ByteString;
+import org.cocos2dx.okio.Okio;
 
 /** Replays prerecorded outgoing frames and records incoming frames. */
 public final class MockHttp2Peer implements Closeable {

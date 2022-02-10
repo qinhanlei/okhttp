@@ -15,8 +15,8 @@
  */
 package okhttp3.sse;
 
-import okhttp3.OkHttpClient;
-import okhttp3.Response;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Response;
 import okhttp3.internal.sse.RealEventSource;
 
 public final class EventSources {

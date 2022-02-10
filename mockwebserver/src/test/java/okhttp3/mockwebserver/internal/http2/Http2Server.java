@@ -28,18 +28,18 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
-import okhttp3.Headers;
-import okhttp3.Protocol;
-import okhttp3.internal.Util;
-import okhttp3.internal.http2.Header;
-import okhttp3.internal.http2.Http2Connection;
-import okhttp3.internal.http2.Http2Stream;
-import okhttp3.internal.platform.Platform;
-import okio.BufferedSink;
-import okio.Okio;
-import okio.Source;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.Protocol;
+import org.cocos2dx.okhttp3.internal.Util;
+import org.cocos2dx.okhttp3.internal.http2.Header;
+import org.cocos2dx.okhttp3.internal.http2.Http2Connection;
+import org.cocos2dx.okhttp3.internal.http2.Http2Stream;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
+import org.cocos2dx.okio.BufferedSink;
+import org.cocos2dx.okio.Okio;
+import org.cocos2dx.okio.Source;
 
-import static okhttp3.internal.platform.Platform.INFO;
+import static org.cocos2dx.okhttp3.internal.platform.Platform.INFO;
 import static okhttp3.tls.internal.TlsUtil.localhost;
 
 /** A basic HTTP/2 server that serves the contents of a local directory. */

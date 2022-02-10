@@ -21,8 +21,8 @@ import java.net.ProtocolException;
 import java.util.Random;
 import java.util.regex.Pattern;
 import okhttp3.internal.Util;
-import okio.Buffer;
-import okio.ByteString;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.ByteString;
 import org.junit.After;
 import org.junit.Test;
 

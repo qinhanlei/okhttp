@@ -16,11 +16,11 @@
 package okhttp3;
 
 import java.io.IOException;
-import okio.Buffer;
-import okio.BufferedSource;
-import okio.Okio;
-import okio.Source;
-import okio.Timeout;
+import org.cocos2dx.okio.Buffer;
+import org.cocos2dx.okio.BufferedSource;
+import org.cocos2dx.okio.Okio;
+import org.cocos2dx.okio.Source;
+import org.cocos2dx.okio.Timeout;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

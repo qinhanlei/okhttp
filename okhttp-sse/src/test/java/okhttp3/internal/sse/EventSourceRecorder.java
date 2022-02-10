@@ -21,8 +21,8 @@ import java.util.concurrent.LinkedBlockingDeque;
 import javax.annotation.Nullable;
 import okhttp3.sse.EventSource;
 import okhttp3.sse.EventSourceListener;
-import okhttp3.Response;
-import okhttp3.internal.platform.Platform;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.internal.platform.Platform;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.assertj.core.api.Assertions.assertThat;

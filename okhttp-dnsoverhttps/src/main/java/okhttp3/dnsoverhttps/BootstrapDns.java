@@ -18,7 +18,7 @@ package okhttp3.dnsoverhttps;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.List;
-import okhttp3.Dns;
+import org.cocos2dx.okhttp3.Dns;
 
 /**
  * Internal Bootstrap DNS implementation for handling initial connection to DNS over HTTPS server.

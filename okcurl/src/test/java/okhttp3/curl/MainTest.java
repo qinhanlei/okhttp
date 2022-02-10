@@ -16,9 +16,9 @@
 package okhttp3.curl;
 
 import java.io.IOException;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okio.Buffer;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okio.Buffer;
 import org.junit.Test;
 
 import static okhttp3.curl.Main.fromArgs;

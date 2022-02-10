@@ -21,9 +21,9 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Collections;
-import okhttp3.Headers;
-import okhttp3.internal.Util;
-import okio.Buffer;
+import org.cocos2dx.okhttp3.Headers;
+import org.cocos2dx.okhttp3.internal.Util;
+import org.cocos2dx.okio.Buffer;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -22,7 +22,9 @@ import java.net.InetSocketAddress;
 import java.net.PasswordAuthentication;
 import java.net.Proxy;
 import java.util.List;
-import okhttp3.internal.annotations.EverythingIsNonNull;
+
+import org.cocos2dx.okhttp3.*;
+import org.cocos2dx.okhttp3.internal.annotations.EverythingIsNonNull;
 
 /**
  * Adapts {@link java.net.Authenticator} to {@link Authenticator}. Configure OkHttp to use {@link

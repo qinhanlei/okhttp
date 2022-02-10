@@ -19,9 +19,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.Nullable;
-import okhttp3.MediaType;
-import okhttp3.RequestBody;
-import okio.BufferedSink;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.RequestBody;
+import org.cocos2dx.okio.BufferedSink;
 
 import static junit.framework.TestCase.assertTrue;
 

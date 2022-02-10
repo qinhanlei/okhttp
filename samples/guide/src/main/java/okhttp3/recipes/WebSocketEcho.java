@@ -1,12 +1,12 @@
 package okhttp3.recipes;
 
 import java.util.concurrent.TimeUnit;
-import okhttp3.WebSocket;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.WebSocketListener;
-import okio.ByteString;
+import org.cocos2dx.okhttp3.WebSocket;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.WebSocketListener;
+import org.cocos2dx.okio.ByteString;
 
 public final class WebSocketEcho extends WebSocketListener {
   private void run() {

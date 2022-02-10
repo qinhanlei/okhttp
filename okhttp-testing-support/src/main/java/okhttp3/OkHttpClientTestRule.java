@@ -15,6 +15,7 @@
  */
 package okhttp3;
 
+import org.cocos2dx.okhttp3.OkHttpClient;
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;
 import org.junit.runners.model.Statement;

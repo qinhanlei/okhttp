@@ -1,3 +1,5 @@
 /** OkHttp Transport Layer Security (TLS) library. */
-@okhttp3.internal.annotations.EverythingIsNonNull
+@EverythingIsNonNull
 package okhttp3.tls;
+
+import org.cocos2dx.okhttp3.internal.annotations.EverythingIsNonNull;

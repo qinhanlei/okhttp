@@ -48,7 +48,7 @@
     <java.version>1.8</java.version>
     <moshi.version>1.8.0</moshi.version>
     <jnr-unixsocket.version>0.22</jnr-unixsocket.version>
-    <okio.version>1.17.2</okio.version>
+    <okio.version>1.17.3</okio.version>
     <conscrypt.version>2.0.0</conscrypt.version>
 
     <!-- Test Dependencies -->
@@ -84,6 +84,8 @@
         <groupId>com.squareup.okio</groupId>
         <artifactId>okio</artifactId>
         <version>${okio.version}</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/../libs/okio-1.17.3.jar</systemPath>
       </dependency>
       <dependency>
         <groupId>com.google.code.findbugs</groupId>

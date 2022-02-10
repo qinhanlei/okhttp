@@ -17,17 +17,17 @@ package okhttp3.internal.sse;
 
 import java.io.IOException;
 import javax.annotation.Nullable;
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.EventListener;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import okhttp3.internal.Internal;
-import okhttp3.internal.Util;
-import okhttp3.internal.connection.Exchange;
+import org.cocos2dx.okhttp3.Call;
+import org.cocos2dx.okhttp3.Callback;
+import org.cocos2dx.okhttp3.EventListener;
+import org.cocos2dx.okhttp3.MediaType;
+import org.cocos2dx.okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Request;
+import org.cocos2dx.okhttp3.Response;
+import org.cocos2dx.okhttp3.ResponseBody;
+import org.cocos2dx.okhttp3.internal.Internal;
+import org.cocos2dx.okhttp3.internal.Util;
+import org.cocos2dx.okhttp3.internal.connection.Exchange;
 import okhttp3.sse.EventSource;
 import okhttp3.sse.EventSourceListener;
 

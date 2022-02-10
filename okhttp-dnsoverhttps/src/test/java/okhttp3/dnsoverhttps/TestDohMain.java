@@ -23,9 +23,9 @@ import java.security.Security;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import okhttp3.Cache;
-import okhttp3.HttpUrl;
-import okhttp3.OkHttpClient;
+import org.cocos2dx.okhttp3.Cache;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okhttp3.OkHttpClient;
 
 public class TestDohMain {
   public static void main(String[] args) throws IOException {

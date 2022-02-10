@@ -17,8 +17,8 @@ package okhttp3.slack;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;
-import okhttp3.HttpUrl;
-import okio.Timeout;
+import org.cocos2dx.okhttp3.HttpUrl;
+import org.cocos2dx.okio.Timeout;
 
 /** A connection to Slack as a single user. */
 public final class SlackClient {
